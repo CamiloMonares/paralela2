@@ -16,6 +16,7 @@
 
 float sumaTotal();
 int cantidadTotal();
+float modaFinal();
 
 #endif /* FUNCIONES_H */
 

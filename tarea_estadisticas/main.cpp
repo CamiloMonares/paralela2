@@ -22,9 +22,11 @@ int main(int argc, char** argv) {
     total = sumaTotal();
     cantidad = cantidadTotal();
     media = total/cantidad;
+    moda = modaFinal();
     cout<<"la suma total es: "<<total<<endl;
     cout<<"La cantidad de notas es: "<<cantidad<<endl;
     cout<<"La media de notas es: "<<media<<endl;
+    cout<<"La moda de notas es: "<<moda<<endl;
     return 0;
 }
 
